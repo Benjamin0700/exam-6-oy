@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benjamin</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="menu">
+                        <img src="./logo/image 1.png" alt="React Pizza Logo" />
+                    </div>
+                    <div class="site-title">
+                        <h3>REACT PIZZA</h3>
+                        <p class="subtitle">самая вкусная пицца во вселенной</p>
+                    </div>
+                </div>
+                <a href="./Basket/basket.html">
+                    <div class="cart-button">
+                        <span>520 ₽</span>
+                        <span class="cart-icon">🛒 3</span>
+                    </div>
+                </a>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="category-filter">
+            <div class="categories">
+                <button class="category active">Все</button>
+                <button class="category">Мясные</button>
+                <button class="category">Вегетарианская</button>
+                <button class="category">Гриль</button>
+                <button class="category">Острые</button>
+                <button class="category">Закрытые</button>
+            </div>
+
+            <div class="sort">
+                <span class="sort-label">Сортировка по:</span>
+                <div class="dropdown">
+                    <button class="dropbtn">популярности</button>
+                    <div class="dropdown-content">
+                        <a href="#">популярности</a>
+                        <a href="#">по цене</a>
+                        <a href="#">по алфавиту</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 style="padding: 10px 100px;
+    ">Все пиццы</h1>
+
+  <div id="pizza-list" class="pizza-container"></div>
+
+  <script type="module" src="./mook.js"></script>
+</body>
+</html>
